@@ -1,0 +1,307 @@
+H1{font-family: fantasy;
+color: red;
+font-size: 60px;
+    margin: 10px
+}
+.Current{background-color:dodgerblue}
+a href:active{background-color: aqua}
+H2,H3,h4, h5, h6{
+    font-family: fantasy;
+    color: red;
+    font-size: 150%;
+    
+        
+    }
+P{ font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 10px 0px; text-align: justify}
+Body{background: white;
+background-image:url(../images/Brick.jpg);
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    margin: 100px;
+    text-align:justify;
+    
+    
+}
+#nav{background-color: #111}
+
+#nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#nav ul li {
+    float: left;
+    width: 205px;
+    height: 40px;
+    background-color: red;
+    padding: inherit;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    }
+
+#nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+}
+#nav ul li a:visited {
+    Color: aqua;   
+    text-decoration: line-through
+    }
+#nav li a:hover {
+    background-color: #111;
+    text-decoration: underline;
+    color: yellow
+}
+#nav li a:visited{
+    text-decoration: line-through
+    }
+
+#nav li a:active{color: red;
+background-color: white}
+
+#nav li a:link{font-style: italic}
+
+
+
+#nav ul li:hover UL{display: block;}
+#nav UL UL { display:none;
+position:relative;
+background-color:red}
+#nav UL UL LI{ display:grid}
+   
+
+table {
+  width: 100%;
+  border: 1px solid #000;
+    background-color: lightgrey
+}
+
+th, td {
+  width: 2%;
+  text-align:center; 
+  vertical-align:middle; 
+  border: 1px solid #000;
+  padding: 0.3em;
+  caption-side: bottom; 
+}
+
+
+
+th {
+  background:red;
+    color: yellow
+}
+
+#Table tr:nth-last-of-type(-n+3){background-color:grey}
+#Table table tr:hover{cursor:auto; background-color: black; color: white}
+#Table Caption{font-size: 25px}
+
+#Results table td:nth-of-type(2n){background-color: darkgrey}
+#Results Caption{font-size: 25px}
+
+
+#Note table tr:nth-of-type(2n){background-color:white}
+#Note table tr:hover{cursor: crosshair; background-color: black; color: white}
+#Note Caption {font-size: 25px}
+#History th{font-style: oblique;
+text-decoration: underline}
+#History Caption{font-size: 25px}
+
+#Fixtures td{font-style: italic;
+border: red; border: solid black 1px }
+
+#Fixtures td td {Border: solid  none;
+color: blue;
+text-decoration: inherit;
+font-style: italic}
+
+#Fixtures table tr:hover{cursor:alias; background-color: black; color: white}
+#Fixtures table td:nth-of-type(1){background-color:red; color: yellow}
+#Fixtures Caption { font-size: 25px}
+
+#History tr th{Border: 1px none;
+color:yellow;
+text-decoration: inherit;
+font-style: oblique}
+
+#History ol{ width: 100%; padding-left:45px}
+
+#History li{font-style: oblique; border: solid black 1px; margin: 1px; color:  black; width: 30%; background-color: gainsboro; }
+
+
+#squad ul{ border-left: 5px solid red;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;}
+
+#squad ul>li {background-color: white;
+color:firebrick;
+font-style: oblique;
+margin: 0.2em}
+
+#squad ul li ul li {background-color: white;
+color:firebrick;
+font-style: oblique;
+margin: 0.2em}
+
+#Premier { color:#f1f1f1; }
+#Premier ul { font-size:18px; 
+        border-left: 5px solid red;
+list-style-type: none;
+padding: 10px 20px}
+#Premier ul li { color:yellow; background-color: firebrick; width: 1000px }
+#Premier ul li ul {  padding:5px 0 5px 18px; font-size:15px; background-color:#f1f1f1;   }
+#Premier ul li ul li { color:firebrick; height:15px; margin-left:10px; background-color: white; font-style: oblique;
+margin: .2em;
+width: 50%}    
+
+
+
+
+
+
+
+Caption{font-style: oblique;
+text-align: center;
+font-size: 40px; 
+text-decoration: overline underline; 
+color: #fff;
+background: #000;
+padding: 0.3em;
+margin: 1em;
+
+}
+#Fees Caption{font-size: 25px}
+#Fees table td:nth-of-type(1){background-color:red; color: yellow;font-style: italic; font: Bold}
+#Fees table tr:nth-last-of-type(1){background-color: red; color: yellow;
+text-decoration: underline overline}
+#Astro table td:nth-of-type(1){background-color:red; color: yellow}
+#Astro table td:hover{cursor:alias; background-color: black; color: white}
+#Right Table{background-color: white;
+width: 50%;
+padding:10px;
+float: right} 
+#Left Table{background-color: white;
+width: 50%;
+padding:10px;
+float: Left} 
+#Type table td:nth-of-type(1){background-color:red; color: yellow; font-style: italic; font: Bold}
+#Type Caption{font-size: 25px }
+#Right1 figure{width:40%;
+padding:10px;
+float: right;
+height: 300px;
+    text-align: center;
+    border: 2px dashed black
+}
+#Left1 Figure {width: 40%;
+padding:10px;
+float: left;
+height: 300px;
+    text-align: center;
+        border:2px dashed black
+}
+figcaption{font-size: 50px;
+text-decoration: overline underline;
+margin: 20px;
+font-style:normal}
+
+
+#footer { background-color: red; display: block; opacity: 0.8;clear:both;width: 85.5%; position: fixed; bottom: 0}
+#footer-inner { margin:auto; text-align:center; padding:4px; width:100%; margin: 1px;width: 100% }
+#footer a {color:white;text-decoration:none; font-style: italic; width: 100% }
+#footer a:hover {
+    background-color: #111;
+    text-decoration: underline;
+    color: yellow
+}
+#footer a:visited{
+    background-color: black;
+    Color: aqua;   
+    text-decoration: line-through
+    }
+#footer li a:hover {
+    background-color: #111;
+    text-decoration: underline;
+    color: yellow}      
+
+#footer a:active{color: red;
+background-color: white}
+
+#footer li a:link{font-style: italic}
+
+
+#Form .form-style-9{
+    max-width: 100%;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;}
+
+#Form .form-style-9 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+#Form .form-style-9 ul li{
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+#Form .form-style-9 ul li  .field-style{
+    box-sizing: border-box; 
+    
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;}
+
+#Form .form-style-9 ul li  .field-style:focus{
+    box-shadow: 0 0 5px #B0CFE0;
+    border:1px solid #B0CFE0;
+}
+#Form .form-style-9 ul li .field-split{
+    width: 49%;
+}
+#Form .form-style-9 ul li .field-full{
+    width: 100%;
+}
+#Form .form-style-9 ul li input.align-left{
+    float:left;
+}
+#Form .form-style-9 ul li input.align-right{
+    float:right;
+}
+#Form .form-style-9 ul li textarea{
+    width: 100%;
+    height: 100px;
+}
+#Form .form-style-9 ul li input[type="button"], 
+#Form .form-style-9 ul li input[type="submit"],
+#Form .form-style-9 ul li input[type="reset"]{
+    
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+#Form .form-style-9 ul li input[type="button"]:hover, 
+#Form .form-style-9 ul li input[type="submit"]:hover,
+#Form .form-style-9 ul li input[type="reset"]:hover{
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+ 
